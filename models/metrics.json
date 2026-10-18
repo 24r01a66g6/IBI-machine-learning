@@ -1,0 +1,53 @@
+{
+  "best_model": "Logistic_Regression",
+  "all_metrics": [
+    {
+      "Model": "Logistic_Regression",
+      "Accuracy": 0.71,
+      "Precision": 0.5678,
+      "Recall": 0.6505,
+      "F1_Score": 0.6063,
+      "ROC_AUC": 0.76
+    },
+    {
+      "Model": "Random_Forest",
+      "Accuracy": 0.7,
+      "Precision": 0.5844,
+      "Recall": 0.4369,
+      "F1_Score": 0.5,
+      "ROC_AUC": 0.7326
+    },
+    {
+      "Model": "Gradient_Boosting",
+      "Accuracy": 0.7133,
+      "Precision": 0.5977,
+      "Recall": 0.5049,
+      "F1_Score": 0.5474,
+      "ROC_AUC": 0.7537
+    },
+    {
+      "Model": "LightGBM",
+      "Accuracy": 0.68,
+      "Precision": 0.5385,
+      "Recall": 0.4757,
+      "F1_Score": 0.5052,
+      "ROC_AUC": 0.7209
+    }
+  ],
+  "feature_names": [
+    "Age",
+    "MonthlyIncome",
+    "YearsAtCompany",
+    "JobSatisfaction",
+    "WorkLifeBalance",
+    "PerformanceRating",
+    "DistanceFromHome",
+    "Department_Engineering",
+    "Department_Finance",
+    "Department_HR",
+    "Department_Marketing",
+    "Department_Sales",
+    "OverTime_No",
+    "OverTime_Yes"
+  ]
+}
